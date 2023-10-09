@@ -45,7 +45,7 @@ func main() {
 	fmt.Println(len(slice3)) //length
 	fmt.Println(cap(slice3)) //capacidade
 
-	slice4 := make([]float32, 5)
+	slice4 := make([]float32, 5) // Não é necessário colocar info além do tamanho, capacidade máxima pode ser ignorada.
 	fmt.Println(slice4)
 	fmt.Println(len(slice4)) //length
 	fmt.Println(cap(slice4)) //capacidade
